@@ -1,0 +1,11 @@
+{
+  "sourceStrategy": {
+    ...
+    "env": [
+      {
+        "Name": "MAVEN_ARGS",
+        "Value": "package -Popenshift -DskipTests -Dcom.redhat.xpaas.repo.redhatga -s$LOCAL_SOURCE_DIR/configuration/settings.xml "
+      }
+    ]
+  }
+}
